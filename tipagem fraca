@@ -1,0 +1,14 @@
+let qualquer='Legal'
+console.log(qualquer)
+console.log(typeof qualquer) //qual o tipo da variavel
+
+qualquer=3.1516
+console.log(qualquer)
+console.log(typeof qualquer)
+
+/* tipagem fraca= Naõ possuí a necessidade que você, 
+*o usuário da linguagem diga de que 
+*tipo determinada a tal variável
+*/
+
+//evite nome genéricos e siglas
