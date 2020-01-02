@@ -1,0 +1,26 @@
+//criação de variavel 
+var a=3 
+let b=4
+let h
+
+var a=30 
+b=40
+
+console.log(a,b)
+
+a=300 
+b=400
+
+console.log(a,b)
+
+//constante
+
+const c=5
+
+console.log(c)
+
+//operação soma 
+h=a+b+c
+
+//impressão do resultado
+console.log('O resultado é:',h)
