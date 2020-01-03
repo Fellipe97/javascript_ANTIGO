@@ -1,0 +1,23 @@
+const escola="Cod3r"
+
+console.log(escola.charAt(4)) //a letra q está no indice 4
+console.log(escola.charAt(5))
+console.log(escola.charCodeAt(3)) //unicode
+console.log(escola.indexOf('3')) //fala em qual indice está o 3
+
+console.log(escola.substring(1))//começa do indice x
+console.log(escola.substring(0,3))// começa e termina no indice x e y
+
+console.log('Escola '.concat(escola).concat("!"))
+console.log('Escola ' + escola + "!")
+console.log('3' + 2) //String Ganha!!
+console.log('3' - 2)
+console.log(escola.replace(3,'e'))
+console.log(escola.replace(/\d/,'e'))
+// /\d/ substitua tds os digitos
+console.log(escola.replace(/\w/,'e'))
+// /\w/ substitua tds os digitos e caractere(o primeiro que aparecer) 
+console.log(escola.replace(/\w/g,'e'))
+// /\w/g substitua tds os digitos e caractere(todos)
+
+console.log('Ana,Maria,Pedro'.split(',')) // ' , ' ou  / , /
